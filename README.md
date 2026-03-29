@@ -1,10 +1,56 @@
-# NailConnect 💅
+# 💅 NailConnect 
 Connecting nail technicians and salon owners through a location-based matching platform.
+
+## ❗ Problem
+Nail technicians rely on informal networks to find jobs, while salon owners struggle to fill positions quickly, especially during peak periods.
+
+## 💡 Solution
+NailConnect provides a centralized platform that matches technicians and salon owners based on availability, location, and preferences.
+
+## 🚀 Features
+- Role-based system (Technician vs Salon Owner)
+- Real-time matching based on availability and location
+- Apple Maps integration for nearby opportunities
+- Profile system with certifications and preferences
+- Offer/Request system for job coordination
+- Persistent data storage using Firebase + CoreData
+
+## 🧠 Architecture
+This project follows the MVVM pattern to separate UI, business logic, and data handling.
+
+## 🛠 Tech Stack
+- Swift / SwiftUI
+- MVVM Architecture
+- Firebase (Authentication & Data Storage)
+- CoreData / SwiftData (local persistence)
+- Apple Maps API
+- REST API integration (Yelp API)
+
+## 🔮 Future Improvements
+- Real-time notifications for offers/requests
+- In-app messaging system
+- Advanced filtering (rating, experience)
+- Deployment to App Store
+
+## 🗂️ Project Structure
+
+```text
+NailConnect/
+├── Main/              # App entry and root navigation
+├── Models/            # Data models
+├── ViewModels/        # Business logic and data handling
+├── Views/
+│   ├── Authentication/ # Login, signup, profile setup
+│   └── Dashboard/      # Matching, map, profile, offers/requests
+├── Resources/         # Assets, splash screen, UI helpers
+├── GoogleService-Info.plist
+└── Info.plist
+```
 
 ## 🎥 Demo
 [Watch Demo Video](https://youtu.be/qCv3sMDpbr4)
 
-## 📱 Screenshots
+## Screenshots
 
 | Icon | Welcome | Signup | Login |
 |--------|--------|----------|-----|
